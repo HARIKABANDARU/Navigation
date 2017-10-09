@@ -1,0 +1,36 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calcBackground">
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:layout_alignParentTop="true"
+       android:elevation="5dp"
+       android:minHeight="100dp"
+       android:background="@color/colorPrimary">
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/circular"
+           android:id="@+id/image"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tilte"
+           android:id="@+id/text"/>
+   </android.support.v7.widget.Toolbar>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignBottom="@id/toolbar"
+    >
+
+</FrameLayout>
+
+</RelativeLayout>
